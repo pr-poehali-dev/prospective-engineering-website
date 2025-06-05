@@ -15,7 +15,7 @@ const Hero = () => {
               </Badge>
               <h1 className="text-5xl font-bold text-gray-900 leading-tight">
                 Стань инженером
-                <span className="text-green-600"> завтрашнего дня</span>
+                <span className="text-green-600">будущего</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Институт перспективного машиностроения "Ростсельмаш" — твой путь
