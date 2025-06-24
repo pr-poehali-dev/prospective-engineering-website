@@ -13,9 +13,7 @@ const Header = () => {
               className="h-10 w-auto"
             />
             <div>
-              <h1 className="font-bold text-[#4A4A52] text-base">
-                Институт перспективного машиностроения "Ростсельмаш"
-              </h1>
+              <h1 className="font-bold text-[#4A4A52] text-base"></h1>
               <p className="text-sm text-[#4A4A52]/70"></p>
             </div>
           </div>
