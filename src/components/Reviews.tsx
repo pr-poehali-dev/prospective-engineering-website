@@ -34,13 +34,13 @@ const reviews = [
 
 const Reviews = () => {
   return (
-    <section id="reviews" className="py-20 bg-gray-50">
+    <section id="reviews" className="py-20 bg-[#E7E8ED]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl font-bold text-[#4A4A52] mb-4">
             Истории успеха наших выпускников
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-[#4A4A52]/70 max-w-3xl mx-auto">
             Узнай, как наши студенты строят успешную карьеру в машиностроении
           </p>
         </div>
@@ -59,10 +59,10 @@ const Reviews = () => {
                     className="w-16 h-16 rounded-full object-cover mr-4"
                   />
                   <div className="flex-1">
-                    <h3 className="font-bold text-gray-900 text-lg">
+                    <h3 className="font-bold text-[#4A4A52] text-lg">
                       {review.name}
                     </h3>
-                    <p className="text-green-600 font-medium">
+                    <p className="text-[#E07966] font-medium">
                       {review.position}
                     </p>
                     <Badge variant="outline" className="mt-1 text-xs">
@@ -76,13 +76,13 @@ const Reviews = () => {
                     <Icon
                       key={i}
                       name="Star"
-                      className="text-yellow-400 fill-current"
+                      className="text-[#E07966] fill-current"
                       size={16}
                     />
                   ))}
                 </div>
 
-                <blockquote className="text-gray-600 leading-relaxed italic">
+                <blockquote className="text-[#4A4A52]/70 leading-relaxed italic">
                   "{review.text}"
                 </blockquote>
               </CardContent>
@@ -91,9 +91,9 @@ const Reviews = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-gray-600 mb-6 text-lg">
+          <p className="text-[#4A4A52]/70 mb-6 text-lg">
             🎓 Средняя зарплата выпускников через год после окончания:{" "}
-            <span className="font-bold text-green-600">105 000 ₽</span>
+            <span className="font-bold text-[#E07966]">105 000 ₽</span>
           </p>
         </div>
       </div>
