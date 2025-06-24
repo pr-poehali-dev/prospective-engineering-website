@@ -8,9 +8,11 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 gap-8 mb-12">
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-[#E07966] rounded-lg flex items-center justify-center">
-                <Icon name="Cog" className="text-white" size={28} />
-              </div>
+              <img
+                src="https://cdn.poehali.dev/files/665d7347-54c3-4dfd-9c6a-01a020a1dea4.png"
+                alt="Институт перспективного машиностроения Ростсельмаш"
+                className="h-12 w-auto"
+              />
               <div>
                 <h2 className="text-2xl font-bold">Ростсельмаш</h2>
                 <p className="text-[#E7E8ED]">Институт машиностроения</p>
