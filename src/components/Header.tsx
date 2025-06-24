@@ -11,8 +11,8 @@ const Header = () => {
               <Icon name="Cog" className="text-white" size={24} />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-[#4A4A52]">
-                Институт перспективного машиностроения"Ростсельмаш"
+              <h1 className="font-bold text-[#4A4A52] text-base">
+                Институт перспективного машиностроения "Ростсельмаш"
               </h1>
               <p className="text-sm text-[#4A4A52]/70"></p>
             </div>
